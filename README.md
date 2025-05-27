@@ -4,10 +4,6 @@
 An intelligent Question & Answer system built with **LangChain**, **Google Gemini**, and **Streamlit** that provides instant answers to course-related queries using advanced **Retrieval-Augmented Generation (RAG)** technology.
 
 <p align="center">
-  <img src="[images/left_image.png](ChartBot_QA_Sample1.jpeg)" alt="Left Image" width="45%" style="display:inline-block; margin-right: 10px;" />
-  <img src="[images/right_image.png](ChartBot_QA_Sample2.jpeg)" alt="Right Image" width="45%" style="display:inline-block;" />
-</p>
-<p align="center">
   <img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/ChartBot_QA_Sample2.jpeg" alt="System Architecture" width="47%" style="margin-right: 10px;" />
   <img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/ChartBot_QA_Sample3.jpeg" alt="UI Screenshot" width="47%" />
 </p>
