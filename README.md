@@ -41,8 +41,8 @@ codebasics_q_and_a/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/codebasics-qa-system.git
-cd codebasics-qa-system
+git clone https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS.git
+cd LLM-Powered-chatbot-System-with-RAG-FAISS
 ```
 
 ### 2. Set Up Virtual Environment
@@ -154,18 +154,6 @@ CMD ["streamlit", "run", "main.py"]
 - **Scalability**: Handles 1000+ FAQ entries efficiently
 - **Memory Usage**: ~200MB with loaded models
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/new-feature`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/new-feature`)
-5. Create Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🔍 Troubleshooting
 
 ### Common Issues
@@ -178,11 +166,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Reduce `k` value in similarity search
 - Use lighter embedding model
 
-**Knowledge base not loading**
-- Ensure CSV file has correct format
-- Check file path in langchain_helper.py
-- Recreate FAISS index
-
 ### Performance Tips
 - Use SSD storage for vector database
 - Increase batch_size for bulk operations
@@ -190,10 +173,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- **Developer**: Your Name
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Developer**: D Mohammad Abdulla
+- **Email**: mohammadabdulla20march@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mohammad-abdulla-doodakula-8a3307258/)
+- **GitHub**: [Your GitHub Profile](https://github.com/Abdulla-1234)
 
 ---
 
