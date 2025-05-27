@@ -25,7 +25,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 ## 📁 Project Structure
 
 ```
-codebasics_q_and_a/
+LLM-Powered-chatbot-System-with-RAG-FAISS/
 ├── langchain_helper.py      # Core RAG implementation
 ├── main.py                  # Streamlit web application
 ├── codebasics_faqs.csv     # Knowledge base (FAQ data)
