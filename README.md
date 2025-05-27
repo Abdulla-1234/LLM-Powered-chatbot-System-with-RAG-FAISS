@@ -94,10 +94,11 @@ The app will open in your browser at `http://localhost:8501`
 4. Optionally view source documents for transparency
 
 ### Example Questions
-- "Do you have a JavaScript course?"
-- "What is the price of your courses?"
+- "Can I add this course to my resume? If Yes, how?"
+- "Will this bootcamp guarantee me a job? "
 - "How can I contact support?"
 - "Do you provide certificates?"
+- "mention all course"
 
 ## 🔧 Configuration
 
