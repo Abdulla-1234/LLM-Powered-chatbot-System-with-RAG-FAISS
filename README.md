@@ -1,5 +1,5 @@
 # LLM-Powered-chatbot-System-with-RAG-FAISS
-# 🌱 ChartBot Q&A System
+# ChartBot Q&A System 🌱
 
 An intelligent Question & Answer system built with **LangChain**, **Google Gemini**, and **Streamlit** that provides instant answers to course-related queries using advanced **Retrieval-Augmented Generation (RAG)** technology.
 
@@ -9,7 +9,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 </p>
 
 
-## 🚀 Features
+## Features
 
 - **Lightning Fast Responses**: Get answers in 1-2 seconds using Google Gemini 1.5 Flash
 - **Smart Document Search**: Uses FAISS vector database for efficient similarity search
@@ -18,7 +18,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 - **Real-time Response Tracking**: See exact response times
 - **Knowledge Base Management**: Easy creation and updates of the knowledge base
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **LangChain**: Framework for building LLM applications
 - **Google Gemini 1.5 Flash**: Fast and efficient language model
@@ -28,7 +28,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 - **Sentence Transformers**: Semantic text similarity
 - **Python**: Core programming language
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LLM-Powered-chatbot-System-with-RAG-FAISS/
@@ -43,7 +43,7 @@ LLM-Powered-chatbot-System-with-RAG-FAISS/
 └── README.md              # Project documentation
 ```
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -86,7 +86,7 @@ streamlit run main.py
 
 The app will open in your browser at `http://localhost:8501`
 
-## 📖 How to Use
+## How to Use
 
 ### Creating Knowledge Base
 1. Click "🔄 Create/Update Knowledge Base" in the sidebar
@@ -106,7 +106,7 @@ The app will open in your browser at `http://localhost:8501`
 - "Do you provide certificates?"
 - "mention all course"
 
-## 🔧 Configuration
+## Configuration
 
 ### Customizing the Knowledge Base
 Replace `codebasics_faqs.csv` with your own data:
@@ -130,7 +130,7 @@ llm = ChatGoogleGenerativeAI(
 docs = vectordb.similarity_search(question, k=2)  # Number of documents to retrieve
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Local Development
 ```bash
@@ -154,14 +154,14 @@ EXPOSE 8501
 CMD ["streamlit", "run", "main.py"]
 ```
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Response Time**: 1-2 seconds average
 - **Accuracy**: High relevance using semantic search
 - **Scalability**: Handles 1000+ FAQ entries efficiently
 - **Memory Usage**: ~200MB with loaded models
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -178,7 +178,7 @@ CMD ["streamlit", "run", "main.py"]
 - Increase batch_size for bulk operations
 - Consider GPU acceleration for large datasets
 
-## 📧 Contact
+## Contact
 
 - **Developer**: D Mohammad Abdulla
 - **Email**: mohammadabdulla20march@gmail.com
