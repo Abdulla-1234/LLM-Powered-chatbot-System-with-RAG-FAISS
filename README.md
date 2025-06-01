@@ -29,7 +29,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 - **Python**: Core programming language
 
 ## Architecture 
-<img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/architecture.jpeg" alt="System Architecture Diagram" width="400"/>
+<img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/architecture.jpeg" alt="System Architecture Diagram" width="500"/>
 
 ## Project Structure
 
