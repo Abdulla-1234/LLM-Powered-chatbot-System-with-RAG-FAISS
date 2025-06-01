@@ -185,7 +185,7 @@ CMD ["streamlit", "run", "main.py"]
 
 - **Developer**: D Mohammad Abdulla
 - **Email**: mohammadabdulla20march@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mohammad-abdulla-doodakula-8a3307258/)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/mohammad-abdulla-doodakula-8a3307258/n)
 - **GitHub**: [Your GitHub Profile](https://github.com/Abdulla-1234)
 
 ---
