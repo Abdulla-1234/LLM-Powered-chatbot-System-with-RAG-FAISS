@@ -28,6 +28,9 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 - **Sentence Transformers**: Semantic text similarity
 - **Python**: Core programming language
 
+## Architecture 
+<img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/architecture.jpeg" alt="System Architecture Diagram" width="600"/>
+
 ## Project Structure
 
 ```
