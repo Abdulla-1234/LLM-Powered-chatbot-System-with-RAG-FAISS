@@ -8,7 +8,6 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
   <img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/ChartBot_QA_Sample3.jpeg" alt="UI Screenshot" width="47%" />
 </p>
 
-
 ## Features
 
 - **Lightning Fast Responses**: Get answers in 1-2 seconds using Google Gemini 1.5 Flash
