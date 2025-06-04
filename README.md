@@ -1,5 +1,5 @@
 # LLM-Powered-chatbot-System-with-RAG-FAISS
-# ChartBot Q&A System 🌱
+## ChartBot Q&A System 🌱
 
 An intelligent Question & Answer system built with **LangChain**, **Google Gemini**, and **Streamlit** that provides instant answers to course-related queries using advanced **Retrieval-Augmented Generation (RAG)** technology.
 
