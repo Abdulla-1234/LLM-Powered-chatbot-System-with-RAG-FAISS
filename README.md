@@ -8,6 +8,12 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
   <img src="https://github.com/Abdulla-1234/LLM-Powered-chatbot-System-with-RAG-FAISS/blob/main/ChartBot_QA_Sample3.jpeg" alt="UI Screenshot" width="47%" />
 </p>
 
+# 🤖 ChartBot Q&A with RAG + FAISS + Gemini
+
+An interactive Q&A chatbot built using LangChain, Google Gemini API, FAISS vector database, and Streamlit. Upload a dataset, build a knowledge base, and ask context-aware questions.
+
+🚀 **Live Demo:** [Click here to try it!](https://your-deployment-url.com)
+
 ## Features
 
 - **Lightning Fast Responses**: Get answers in 1-2 seconds using Google Gemini 1.5 Flash
