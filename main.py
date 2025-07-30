@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_helper import get_qa_chain, create_vector_db
 
-st.set_page_config(page_title="ChartBot Q&A 🌱", page_icon="🤖")
+st.set_page_config(page_title="ChartBot Q&A")
 st.title("ChartBot Q&A 🌱")
 
 # Create the knowledge base button
@@ -14,7 +14,7 @@ if st.button("📚 Create Knowledgebase"):
             st.error(f"❌ Failed to create knowledge base: {e}")
 
 # Question input box
-question = st.text_input("❓ Enter your question:")
+question = st.text_input("Enter your question:")
 
 # Handle question submission
 if question:
