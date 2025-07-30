@@ -1,33 +1,39 @@
 import streamlit as st
 from langchain_helper import get_qa_chain, create_vector_db
 
+st.set_page_config(page_title="ChartBot Q&A 🌱", page_icon="🤖")
 st.title("ChartBot Q&A 🌱")
 
-btn = st.button("Create Knowledgebase")
-if btn:
-    with st.spinner("Creating knowledge base..."):
-        create_vector_db()
-        st.success("Knowledge base created successfully!")
+# Create the knowledge base button
+if st.button("📚 Create Knowledgebase"):
+    with st.spinner("🔄 Creating knowledge base..."):
+        try:
+            create_vector_db()
+            st.success("✅ Knowledge base created successfully!")
+        except Exception as e:
+            st.error(f"❌ Failed to create knowledge base: {e}")
 
-question = st.text_input("Question: ")
+# Question input box
+question = st.text_input("❓ Enter your question:")
 
+# Handle question submission
 if question:
-    with st.spinner("Searching for answer..."):
+    with st.spinner("🔍 Searching for answer..."):
         try:
             chain = get_qa_chain()
-            # Use invoke instead of deprecated __call__
             response = chain.invoke({"query": question})
-            
-            st.header("Answer")
+
+            # Display answer
+            st.subheader("✅ Answer")
             st.write(response["result"])
-            
-            # Optional: Show source documents for transparency
-            if st.checkbox("Show source documents"):
-                st.subheader("Source Documents")
+
+            # Optional: show source documents
+            if st.checkbox("📄 Show source documents"):
+                st.markdown("---")
                 for i, doc in enumerate(response["source_documents"]):
-                    st.write(f"**Source {i+1}:**")
-                    st.write(doc.page_content)
-                    st.write("---")
+                    st.markdown(f"**🔹 Source {i + 1}:**")
+                    st.code(doc.page_content)
+                    st.markdown("---")
         except Exception as e:
-            st.error(f"An error occurred: {str(e)}")
-            st.write("Please make sure you have created the knowledge base first.")
+            st.error(f"⚠️ An error occurred: {str(e)}")
+            st.info("📌 Make sure you've created the knowledge base before asking questions.")
