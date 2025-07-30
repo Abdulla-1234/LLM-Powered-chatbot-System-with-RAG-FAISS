@@ -12,7 +12,7 @@ load_dotenv()
 
 # === 1. LLM and Embedding Config ===
 llm = ChatGoogleGenerativeAI(
-    model="gemini-pro",
+    model="gemini-1.5-flash",
     google_api_key=os.environ["GOOGLE_API_KEY"],
     temperature=0.1,
     max_tokens=500
