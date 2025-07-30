@@ -12,7 +12,7 @@ An intelligent Question & Answer system built with **LangChain**, **Google Gemin
 
 An intelligent Question & Answer system built with **LangChain**, **Google Gemini**, and **Streamlit** that provides instant answers to course-related queries using advanced **Retrieval-Augmented Generation (RAG)** technology.
 
-**Live Demo**: [Click here to try it out](https://llm-powered-chatbot-system-with-rag-faiss-dhhuctnzvsnvpxsbxnkr.streamlit.app/)
+**Live Demo**: [Click here to try it out](https://llm-powered-chatbot-system-with-rag-faiss-dhhuctnzvsnvpxsbxnkr.streamlit.app/){:target="_blank"}
 
 ## Features
 
